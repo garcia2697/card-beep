@@ -3,7 +3,7 @@ const deck = new Deck();
 const element = document.getElementById("myBtn");
 const element2 = document.getElementById("1stRound");
 
-
+var playerScores = [];
 
 
 element.addEventListener("click", function startGame() {
@@ -15,7 +15,7 @@ element.addEventListener("click", function startGame() {
 
 
 // starts the first round of the game
-element2.addEventListener("click", function round1(playerScores) {
+element2.addEventListener("click", function round1() {
   document.getElementById("1stRound").innerHTML = "Next Player";
 
 //   const deck = new Deck();
@@ -34,17 +34,18 @@ element2.addEventListener("click", function round1(playerScores) {
     image.src = lastCard.imgagePath;
   }
 
-//   console.log(playerScores.length);
-  //   for(let i = 0; i<playerScores.length-1; i++){
-  //     var msg = prompt("Red or black?");
-
-  //   }
+  console.log(playerScores.length);
+    for(let i = 0; i<playerScores.length; i++){
+      // var msg = prompt("Red or black?");
+      playerScores[i][0].push("TEST")
+      console.log(playerScores[i])
+    }
 });
 
 // function creates all the players
 function createPlayers() {
 console.log(deck.cards[0])
-  var playerScores = [];
+  
   var msg = prompt("Enter an integer value:");
   var num = parseInt(msg);
 
