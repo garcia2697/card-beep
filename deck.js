@@ -123,8 +123,8 @@ const  stackOfCards = [
     {id:51, imgagePath:'/playing-cards-assets/png/king_of_spades.png',cardValue:13,cardColor:"black",suit: "spades"},
     {id:52, imgagePath:'/playing-cards-assets/png/ace_of_spades.png',cardValue:14,cardColor:"black",suit: "spades"},
 
-    {id:53, imgagePath:'/playing-cards-assets/png/red_joker',cardValue:0,cardColor:"red",suit: "joker"},
-    {id:54, imgagePath:'/playing-cards-assets/png/black_joker',cardValue:0,cardColor:"black",suit: "joker"}
+    {id:53, imgagePath:'/playing-cards-assets/png/red_joker.png',cardValue:0,cardColor:"red",suit: "joker"},
+    {id:54, imgagePath:'/playing-cards-assets/png/black_joker.png',cardValue:0,cardColor:"black",suit: "joker"}
 
 ]
 
